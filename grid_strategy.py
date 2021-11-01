@@ -21,9 +21,6 @@ data = data.loc[:, ["Timestamp", "Close"]]
 # 交易紀錄
 Record = open('result/Record.csv', 'w')
 
-# 手中部位狀態
-BS = dict()
-
 # 交易的張數
 QTY = '1'
 
